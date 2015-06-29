@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name         FleetSharp Tweaks
 // @namespace    https://github.com/BinaryZeph/FleetSharp
-// @version      1.2
+// @version      1.3
 // @description  Small adjustments to the FleetSharp UI
 // @author       BinaryZeph
 // @match        https://www.fleetsharp.com/ibis/*
 // @grant        none
+// @updateURL   https://github.com/BinaryZeph/FleetSharp/raw/master/fleetSharpTweaks.user.js
+// @downloadURL https://github.com/BinaryZeph/FleetSharp/raw/master/fleetSharpTweaks.user.js
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js
 // ==/UserScript==
 
