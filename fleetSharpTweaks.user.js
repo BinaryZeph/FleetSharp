@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         FleetSharp Tweaks
 // @namespace    https://github.com/BinaryZeph/FleetSharp
-// @version      1.1
+// @version      1.2
 // @description  Small adjustments to the FleetSharp UI
 // @author       BinaryZeph
 // @match        https://www.fleetsharp.com/ibis/*
@@ -24,6 +24,8 @@ $(document).ready(function(){
         hideHeader();
         //Alter the colors of the map
         styleMap();
+        //Turn on Traffic TODO: Write this slightly more appropriately
+        trafficLayer = new google.maps.TrafficLayer();  trafficLayer.setMap(map);
         //Set the page to full-screen
         fullScreen(document.documentElement);
         //Just in-case, call FleetSharp's resetMap function to re-center things
